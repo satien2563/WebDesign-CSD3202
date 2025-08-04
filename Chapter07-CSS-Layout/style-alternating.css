@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+.feature-row {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.feature-row .image {
+  flex: 1;
+}
+
+.feature-row .text {
+  flex: 1;
+}
+
+.feature-row.reverse {
+  flex-direction: row-reverse;
+}
+
+img {
+   width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover; /* เพื่อให้ภาพไม่บิดเบี้ยว */
+}

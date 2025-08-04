@@ -1,0 +1,30 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.split-container {
+    display: flex;
+    height: 100vh;
+}
+
+.split {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.left {
+    background-color: #006699;
+}
+
+.right {
+    background-color: #00a86b;
+}
